@@ -1,0 +1,39 @@
+.header-wrapper {
+  width: 600px;
+  height: 196px;
+  position: relative;
+}
+
+.big-rectangle {
+  width: 68px;
+  height: 64px;
+  position: absolute;
+  left: 34px;
+  top: 162px;
+  border-radius: 5px;
+  background: #6853e8;
+}
+
+.small-rectangle-first {
+  width: 52px;
+  height: 48px;
+  position: absolute;
+  left: 76px;
+  top: 187px;
+  border-radius: 5px;
+  background: #6868f6;
+}
+
+.small-rectangle-second {
+  width: 52px;
+  height: 48px;
+  position: absolute;
+  left: 504px;
+  top: 170px;
+  border-radius: 5px;
+  background: #6868f6;
+}
+
+.logo {
+  margin: 40px 0;
+}

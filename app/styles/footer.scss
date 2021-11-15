@@ -1,0 +1,36 @@
+.social-network-link {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin: 0 20px 0 0;
+}
+
+.footer-wrapper {
+  height: 92px;
+}
+
+.social-networks-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-networks-link {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer-description {
+  color: #fff;
+  padding: 0 8px;
+  cursor: pointer;
+  font-size: 14px;
+  border-right: 1px solid #fff;
+}
+
+.footer-description-last {
+  color: #fff;
+  padding: 0 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
