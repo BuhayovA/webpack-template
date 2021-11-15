@@ -10,8 +10,12 @@ header
             center.title Verify your email
             p.subTitle You will need to verify your email to complete registration.
 
-            include includes/button
-              center.button-text VERIFY NOW
+            center
+              table.button
+                tr
+                  td
+                    a.link-button(href='{{VERIFY_LINK}}' target='_blank')
+                      center.button-text VERIFY NOW
 
         include includes/footer
 
